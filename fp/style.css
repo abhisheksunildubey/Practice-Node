@@ -101,17 +101,23 @@ html,body{
     height: 50%;
     width: 100%;
     background-color: yellow;
-
+    background-image: url(https://plus.unsplash.com/premium_photo-1671013032586-3e9a5c49ce3c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fG9yYW5nZXxlbnwwfHwwfHx8MA%3D%3D);
+    background-position: center;
+    background-size: cover;
 }
 
 #rtopleft{
     width: 55%;
     height: 100%;
-    background-color: darkolivegreen;
+    background-image: url(https://media.istockphoto.com/id/185284489/photo/orange.jpg?s=1024x1024&w=is&k=20&c=q5eBnLHG9tiKv0Hl2lPVF6nnEYCXQtFYfh0u9mvHwaI=);
+    background-position: center;
+    background-size: cover;
 }
 
 #rtopright{
     width: 45%;
     height: 100%;
-    background-color: deeppink;
+    background-image: url(https://plus.unsplash.com/premium_photo-1675667408018-3b64dbc55db1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8b3JhbmdlfGVufDB8fDB8fHww);
+    background-position: center;
+    background-size: cover;
 }

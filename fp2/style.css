@@ -21,3 +21,8 @@ html,body{
 #main img{
     height: 600px;
 }
+
+#scroll-div{
+    position: absolute;
+    
+}

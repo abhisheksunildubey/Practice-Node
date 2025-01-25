@@ -1,10 +1,13 @@
-function sum(a,b)
-{
-    return a+b; 
-}
+const express = require('express')
+const app = express()
 
-function mul(a,b)
-{
-    return a+b; 
-}
+app.get('/', function (req, res) {
+  res.send('Hello World')
+})
 
+app.get('/asd', function(req, res) {
+    res.send('Hello everyone');
+});
+  
+
+app.listen(3050)

@@ -49,7 +49,9 @@ html,body{
     margin-right: 30px;
     letter-spacing: 4px;
     animation-name: scroll;
-    
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
 }
 
 
@@ -78,6 +80,10 @@ html,body{
     color: transparent;
     -webkit-text-stroke-width:2px;
     -webkit-text-stroke-color: #000;
+    animation-name: scroll;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
 }
 
 
@@ -105,6 +111,11 @@ html,body{
     font-family: "monument";
     margin-right: 30px;
     letter-spacing: 4px;
+    animation-name: scroll;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: reverse;
 }
 
 #text{
@@ -122,8 +133,10 @@ html,body{
 @keyframes scroll{
     0%{
         transform: translateX(0);
+        transform: translateX(calc(-100% - 32px));
+
     }
     100%{
-        transform: translateX(-100%);
+        transform: translateX(0);
     }
 }
